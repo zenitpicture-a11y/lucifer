@@ -4,7 +4,7 @@ import logging
 import requests
 from datetime import datetime
 from eth_account import Account
-from tronapi import Tron
+from tronapy import Tron
 from tronapi.contract import TronContract
 from bip_utils import Bip39SeedGenerator, Bip44, Bip44Coins
 import os
